@@ -1,0 +1,6 @@
+analyze_preferences_task:
+  description: >
+    Analyze user preferences based on their input: {genre_preference}\n\n
+    Identify preferences such as genre, themes, mood, and viewing context (e.g., solo, family, or social viewing).
+  expected_output: >
+    A detailed analysis of the user's movie preferences, including preferred genres, themes, mood, and viewing context, formatted as a JSON object for downstream tasks.

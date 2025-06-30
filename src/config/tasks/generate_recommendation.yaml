@@ -1,0 +1,6 @@
+generate_recommendation_task:
+  description: >
+    Generate personalized movie recommendations based on the matched movies from previous stage.
+    Tailor the recommendations to the user's mood and viewing context, presenting them in an engaging and user-friendly format.
+  expected_output: >
+    A personalized list of up to 5 movie recommendations, formatted as a human-readable string with movie titles, brief descriptions, and reasons why they suit the user's preferences.

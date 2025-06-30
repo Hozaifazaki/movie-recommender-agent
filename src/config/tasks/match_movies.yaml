@@ -1,0 +1,5 @@
+match_movies_task:
+  description: >
+    Using the preference analysis from previous stage, find movies in the database that match the user's preferences for {genre_preference}, themes, mood, and viewing context. Yous should only depend on the tool's output
+  expected_output: >
+    A list of up to 10 movies matching the user's preferences, including title, genre, and a brief description, formatted as a JSON array.
